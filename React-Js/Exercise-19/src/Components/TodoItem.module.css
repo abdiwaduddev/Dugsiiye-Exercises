@@ -1,0 +1,90 @@
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fc;
+  padding: 14px 16px;
+  border-radius: 12px;
+  transition: background-color 0.2s;
+}
+
+.itemContainer:hover {
+  background-color: #f1f3f9;
+}
+
+.leftGroup {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Styled checkbox to match image */
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.checkbox:hover {
+  border-color: #94a3b8;
+}
+
+.checkbox:checked {
+  background-color: #0075ff;
+  border-color: #0075ff;
+}
+
+.checkbox:checked::after {
+  content: "";
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-bottom: 2px;
+}
+
+.todoText {
+  font-size: 15px;
+  font-weight: 500;
+  color: #334155;
+  transition:
+    color 0.2s,
+    text-decoration 0.2s;
+  word-break: break-word;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: rgba(220, 38, 38, 0.08);
+}

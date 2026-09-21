@@ -1,0 +1,25 @@
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  padding: 36px 32px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  color: #1e2438;
+  margin: 0 0 28px 0;
+  letter-spacing: -0.5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: flex-column;
+  flex-direction: column;
+  gap: 12px;
+}

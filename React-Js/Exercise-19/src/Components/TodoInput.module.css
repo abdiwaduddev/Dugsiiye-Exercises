@@ -1,0 +1,49 @@
+.inputContainer {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 15px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  outline: none;
+  color: #334155;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.input::placeholder {
+  color: #a0aec0;
+}
+
+.input:focus {
+  border-color: #9333ea;
+  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
+}
+
+.addButton {
+  background-color: #8b12f6;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition:
+    opacity 0.2s,
+    transform 0.1s;
+}
+
+.addButton:hover {
+  opacity: 0.92;
+}
+
+.addButton:active {
+  transform: scale(0.98);
+}
