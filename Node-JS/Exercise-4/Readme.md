@@ -1,0 +1,13 @@
+- Personal Finance Tracker API. 
+
+- [✅] Project Setup.
+- [✅] Connect MongoDB.
+- [✅] User Auth.
+- [✅] Transactions.
+- [✅] Middleware & Security.
+- [✅] MongoDB Atlas.
+- [✅] Swagger Docs.
+- [✅] Testing.
+- [✅] Github initialization.
+- [✅] Gitignore for securing environment.
+- [✅] Render Deployment.
